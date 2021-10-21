@@ -4,7 +4,7 @@
 #
 Name     : php-geospatial
 Version  : 0.3.1
-Release  : 9
+Release  : 10
 URL      : https://pecl.php.net/get/geospatial-0.3.1.tgz
 Source0  : https://pecl.php.net/get/geospatial-0.3.1.tgz
 Summary  : No detailed summary available
