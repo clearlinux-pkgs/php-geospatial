@@ -4,7 +4,7 @@
 #
 Name     : php-geospatial
 Version  : 0.3.1
-Release  : 12
+Release  : 13
 URL      : https://pecl.php.net/get/geospatial-0.3.1.tgz
 Source0  : https://pecl.php.net/get/geospatial-0.3.1.tgz
 Summary  : No detailed summary available
@@ -45,4 +45,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/geospatial.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/geospatial.so
