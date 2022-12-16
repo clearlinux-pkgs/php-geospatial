@@ -4,7 +4,7 @@
 #
 Name     : php-geospatial
 Version  : 0.3.2
-Release  : 29
+Release  : 30
 URL      : https://pecl.php.net/get/geospatial-0.3.2.tgz
 Source0  : https://pecl.php.net/get/geospatial-0.3.2.tgz
 Summary  : No detailed summary available
@@ -57,7 +57,7 @@ cp %{_builddir}/geospatial-%{version}/LICENSE %{buildroot}/usr/share/package-lic
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20210902/geospatial.so
+/usr/lib64/extensions/no-debug-non-zts-20220829/geospatial.so
 
 %files license
 %defattr(0644,root,root,0755)
