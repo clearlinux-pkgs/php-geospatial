@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : php-geospatial
-Version  : 0.3.3
-Release  : 79
-URL      : https://pecl.php.net/get/geospatial-0.3.3.tgz
-Source0  : https://pecl.php.net/get/geospatial-0.3.3.tgz
+Version  : 0.3.5
+Release  : 80
+URL      : https://pecl.php.net/get/geospatial-0.3.5.tgz
+Source0  : https://pecl.php.net/get/geospatial-0.3.5.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : PHP-3.01
@@ -42,10 +42,10 @@ license components for the php-geospatial package.
 
 
 %prep
-%setup -q -n geospatial-0.3.3
-cd %{_builddir}/geospatial-0.3.3
+%setup -q -n geospatial-0.3.5
+cd %{_builddir}/geospatial-0.3.5
 pushd ..
-cp -a geospatial-0.3.3 buildavx2
+cp -a geospatial-0.3.5 buildavx2
 popd
 
 %build
